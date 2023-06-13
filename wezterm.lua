@@ -8,47 +8,24 @@ config.window_background_opacity = 1.0
 config.background = {
   {
     source = {
-     File = string.format("%s/enternet_angel_switch.png", wezterm.config_dir)
+     File = string.format("%s/kanako.JPG", wezterm.config_dir)
    },
     repeat_x = 'NoRepeat',
     repeat_y = 'Repeat',
     horizontal_align = 'Center',
-    repeat_y_size = '300%',
-    opacity = 0.25,
-    vertical_offset = '200%',
-   attachment = { Parallax = 0.3 },
-  },
-  {
-    source = {
-      File = string.format("%s/enternet_angel.png", wezterm.config_dir)
-    },
-    repeat_x = 'NoRepeat',
-    repeat_y = 'Repeat',
-    horizontal_align = 'Center',
-    repeat_y_size = '300%',
-    opacity = 0.25,
-    vertical_offset = '100%',
-   attachment = { Parallax = 0.3 },
-  },
-  {
-    source = {
-      File = string.format("%s/enternet_angel_self.png", wezterm.config_dir)
-    },
-    repeat_x = 'NoRepeat',
-    repeat_y = 'Repeat',
-    horizontal_align = 'Center',
-    repeat_y_size = '300%',
-    opacity = 0.25,
+    vertical_align = 'Middle',
+    repeat_y_size = '100%',
+    opacity = 0.5,
     vertical_offset = '0%',
-    attachment = { Parallax = 0.3 },
+    attachment = { Parallax = 0.0 },
   },
-  {
+ {
      source = {
       File = string.format("%s/black.png", wezterm.config_dir)
     },       
     repeat_x = 'NoRepeat',
     repeat_y = 'NoRepeat',
-    opacity = 0.5
+    opacity = 0.65
   }
 }
 config.keys = {
