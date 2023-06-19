@@ -11,7 +11,7 @@ config.background = {
      File = string.format("%s/kanako.JPG", wezterm.config_dir)
    },
     repeat_x = 'NoRepeat',
-    repeat_y = 'Repeat',
+    repeat_y = 'NoRepeat',
     horizontal_align = 'Center',
     vertical_align = 'Middle',
     repeat_y_size = '100%',
