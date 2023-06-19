@@ -8,7 +8,7 @@ config.window_background_opacity = 1.0
 config.background = {
   {
     source = {
-     File = string.format("%s/kanako.JPG", wezterm.config_dir)
+     File = string.format("%s/suntry_nomu.JPG", wezterm.config_dir)
    },
     repeat_x = 'NoRepeat',
     repeat_y = 'NoRepeat',
